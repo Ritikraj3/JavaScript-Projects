@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-box {
+    text-align: center; /* Centers everything inside */
+}
+
+.logo img {
+    max-width: 500px;
+    display: block; /* Ensures proper spacing */
+    /* margin: 0 auto; Centers the image */
+    /* margin-bottom: 200px; */
+}
+
+.start-button {
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #35BD3A;
+    color: white;
+    border: none;
+    margin-top: 20px; /* Space between image and button */
+    cursor: pointer;
+    margin-bottom: 300px;
+}
+
+.made-by {
+    position: absolute;
+    bottom: 10px;
+}
