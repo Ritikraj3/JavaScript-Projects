@@ -73,5 +73,3 @@ themeChanger.addEventListener('click', () => {
     themeChanger.innerHTML = `<i class="fa-regular fa-moon"></i> Dark Mode`;
   }
 });
-
-
