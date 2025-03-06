@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Enter a guess between 0 to 100</p>
+    <form>
+        <input class="user-input" type="number" placeholder="Enter a number" min="0" max="100" required>
+        <div>
+            <button class="submit">Submit</button>
+            <button type="reset" class="start-game" disabled>Start Game</button>
+        </div>
+    </form>
+    <p class="result"></p>
+    <p class="all-guesses"></p>
+    
+</body>
+
+</html>
