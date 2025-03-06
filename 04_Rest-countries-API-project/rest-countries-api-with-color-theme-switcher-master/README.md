@@ -17,6 +17,9 @@
 "Where in the World" is a dynamic web application that leverages the [REST Countries API](https://restcountries.com/) to provide detailed, up-to-date information about countries worldwide. Whether you’re a geography enthusiast or simply curious about global data, this project delivers an interactive experience to explore country details with ease.
 
 ---
+A live demo of the project [here](https://250rest-countries.netlify.app/).
+
+---
 
 ## Project Overview
 
