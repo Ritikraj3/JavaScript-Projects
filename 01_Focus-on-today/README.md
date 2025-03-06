@@ -15,7 +15,7 @@ Here’s a more detailed `README.md` for your "Focus on Today" project, incorpor
 
 ## Demo
 
-You can view a live demo of the project [here](#).
+You can view a live demo of the project [here](https://focus-on-tod.netlify.app/).
 
 ## Features
 
