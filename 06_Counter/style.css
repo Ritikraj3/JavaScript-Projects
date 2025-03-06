@@ -5,11 +5,37 @@
 body {
     text-align: center;
     font-family: roboto, sans-serif;
+    margin: 0;
+}
+
+.nav {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    /* align-items: center; */
+    
+}
+
+h1{
+    margin: 0;
+    text-align: center;
 }
 
 .count {
     font-size: 3rem;
+    margin-bottom: 8px;
 }
+
+.icon {
+    width: 50px;
+    position: absolute;
+    right: 10px;
+}
+
+a i {
+    color: initial;
+  }
 
 button{
     padding: 10px 16px;
@@ -32,5 +58,5 @@ button {
     width: 5rem;
     height: 2rem;
     font-size: 1rem;
-    margin: 16px;
+    margin: 8pxpx;
 }
