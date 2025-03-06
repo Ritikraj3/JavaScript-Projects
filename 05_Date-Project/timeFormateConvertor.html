@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time formate convertor</title>
+    <!-- <script src="script.js" defer></script> -->
+</head>
+<body>
+    <form class="form">
+        <input class="input" type="number" placeholder="Enter time in milliseconds">
+        <button class="button">Convert</button>
+    </form>
+    <p>Local format: <span class="local"></span> </p>
+    <p>UTC format: <span class="utc"></span> </p>
+    <p>ISO format: <span class="iso"></span> </p>
+
+    <script>
+        const form = document.querySelector('.form')
+const dobFrom = document.querySelector('.dob-from')
+const input = document.querySelector('.input')
+const dobInput = document.querySelector('.dob-input')
+const local = document.querySelector('.local')
+const utc = document.querySelector('.utc')
+const iso = document.querySelector('.iso')
+const birth = document.querySelector('.birth')
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    console.log(input.value);
+    const timestamp = Number(input.value)
+    const date = new Date(timestamp)
+    local.innerText = date.toLocaleString('en-GB', { dateStyle: 'full', timeStyle: 'long'});
+    utc.innerText = date.toUTCString();
+    iso.innerText = date.toISOString();
+})
+    </script>
+</body>
+</html>
